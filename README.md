@@ -11,7 +11,7 @@ dfc_project/
 ├── cache.py        # Activation extraction + CachedActivationDataset
 ├── dfc.py          # DFCCrossCoder model
 ├── train.py        # Training loop with W&B logging
-├── inspect.py      # Analysis tools
+├── analysis.py      # Analysis tools
 ├── run_cache.py    # Step 1: extract activations to disk
 ├── run_train.py    # Step 2: train DFC from cache
 └── notebook.ipynb  # Step 3: explore results
